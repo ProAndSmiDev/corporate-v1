@@ -70,7 +70,7 @@ footer {
 }
 
 body {
-  font: #{$fz_base}px/1.5 '#{$font}','Arial', 'Roboto', sans-serif;
+  font: #{$fz_base}px/1.5 $font;
 }
 
 .header {
