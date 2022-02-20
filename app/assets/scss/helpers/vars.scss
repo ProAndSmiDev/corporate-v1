@@ -1,11 +1,8 @@
 $font: 'YourFont';
 
-// css theme colors
-$theme: 'YourThemeColor';
-$primary: 'YourPrimaryColor';
-$secondary: 'YourSecondaryColor';
+$theme: hsl(217, 84%, 55%);
+$primary: hsl(0, 0%, 100%);
+$secondary: hsl(216, 15%, 20%);
 
-// alternative colors
-$theme_alternate: 'YourThemeAlternateColor';
-$primary_alternate: 'YourPrimaryAlternateColor';
-$secondary_alternate: 'YourSecondaryAlternateColor';
+$primary_alternate: hsl(233, 4%, 58%);
+$social: desaturate(darken($theme, 20%), 4%);
